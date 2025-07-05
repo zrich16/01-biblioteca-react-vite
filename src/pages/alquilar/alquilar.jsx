@@ -55,17 +55,17 @@ function Principal() {
  <div class="grid gap-12 mb-12 md:grid-cols-2">
     <div>
               <label for="first_name" class="text-blue-800 dark:text-blue-800">NOMBRE CLIENTE   :  </label>
-               <label for="first_name" class="text-blue-800">XXXXX</label>
+               <label for="first_name" class="text-blue-800">RICARDO MARTINEZ HERNANDEZ</label>
             </div>
  </div>
 
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-6 py-3 rounded-s-lg ">
+              <th scope="col" class="px-6 py-3">
                    CLAVE
                 </th>
-                <th scope="col" class="px-6 py-3 rounded-s-lg ">
+                <th scope="col" class="px-6 py-3">
                    FECHA ALQUILER
                 </th>
                 <th scope="col" class="px-6 py-3">

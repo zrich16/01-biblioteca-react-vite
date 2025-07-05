@@ -38,7 +38,7 @@ function About() {
                     </div>
                     <div class="flex flex-col items-center pb-10">
                       <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/icons8-www-64.png" alt="Bonnie image" />
-                      <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">www.rich-develop.com </h5>
+                      <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white"><a href='https://rich-develop.com/' target='_blank'>www.rich-develop.com</a> </h5>
                       <div class="flex mt-4 md:mt-6">
                       </div>
                     </div>
@@ -66,7 +66,7 @@ function About() {
                     </div>
                     <div class="flex flex-col items-center pb-10">
                       <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/icono-linked.jpg" alt="Bonnie image" />
-                      <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Linkedin</h5>
+                      <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white"><a href='https://mx.linkedin.com/' target='_blank'> Linkedin</a> </h5>
 
                       <div class="flex mt-4 md:mt-6">
                       </div>

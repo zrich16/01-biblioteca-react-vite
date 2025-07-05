@@ -9,8 +9,8 @@ import LibroService from '../../services/libroService';
 
 function Buscar() {
 
-  const [users, setUsers] = useState([]);
-  const navigate = useNavigate();
+  const [setUsers] = useState([]);
+ 
 
  useEffect(() => {
     const fetchUsers = async () => {
@@ -89,10 +89,10 @@ function Buscar() {
   <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-6 py-3 rounded-s-lg ">
+               <th scope="col" class="px-6 py-3">
                    CODIGO ISBN
                 </th>
-                <th scope="col" class="px-6 py-3 rounded-s-lg ">
+              <th scope="col" class="px-6 py-3">
                    TITULO
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -119,19 +119,19 @@ function Buscar() {
                  LA0001
                 </th>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 2025/04/01
+               El Psicoanalista
                 </th>
                 <td class="px-6 py-4">
-                    1
+                    John Katzenbach
                 </td>
                 <td class="px-6 py-4">
-                    ENTREGADO
+                    SUSPENSO
                 </td>
                  <td class="px-6 py-4">
-                 0
+                   SUSPENSO
                 </td>
                 <td class="px-6 py-4">
-                      2025/04/20
+                      ESPAÑOL
                 </td>
                 <td class="px-6 py-4 text-right">
                     <a href="/detalle" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
@@ -142,19 +142,19 @@ function Buscar() {
                  LA0002
                 </th>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 2025/05/01
+                Querido Jhon
                 </th>
                 <td class="px-6 py-4">
-                   4
+                  Nicholas Sparks
                 </td>
                 <td class="px-6 py-4">
-                    ENTREGADO
+                    ROMANCE
                 </td>
                 <td class="px-6 py-4">
-                 0
+                  ROMANCE
                 </td>
                 <td class="px-6 py-4">
-                      2025/05/20
+                      ESPAÑOL
                 </td>
                 <td class="px-6 py-4 text-right">
                     <a href="/detalle" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
@@ -165,19 +165,19 @@ function Buscar() {
                  LA0003
                 </th>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 2025/06/20
+                 Batalla de Normadia
                 </th>
                 <td class="px-6 py-4">
-                    1
+                   Antony Beevor
                 </td>
                 <td class="px-6 py-4">
-                    EN CURSO
+                    BELICO
                 </td>
                  <td class="px-6 py-4">
-                1
+                  BELICO
                 </td>
                 <td class="px-6 py-4">
-                      2025/06/25
+                   ESPAÑOL
                 </td>
                 <td class="px-6 py-4 text-right">
                     <a href="/detalle" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
