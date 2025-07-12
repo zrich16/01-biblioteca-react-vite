@@ -25,7 +25,7 @@ const navigate = useNavigate();
     <header>
 
 
-      <div className="bg-gray-800 text-white p-4 rounded">
+      <div className="header">
         <div className="grid grid-cols-3 gap-4">
           <div ><img className="header_logo" src="/logo.png" alt="" /></div>
           <div > <Menu /></div>
