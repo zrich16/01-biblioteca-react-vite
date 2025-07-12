@@ -1,18 +1,37 @@
 import Menu from '../../components/menu/menu';
+import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom';
+
+function Header() {
+const navigate = useNavigate();
+
+  const logout = () => {
+      Swal.fire({
+        title: "Desea editar el registro",
+        showDenyButton: true,
+         confirmButtonText: "SI",
+      }).then((result) => {
+        if (result.isConfirmed) {
+            navigate('/'); 
+        } else if (result.isDenied) { /* empty */ }
+      });
+  
+    };
 
 
-function NotFound() {
+ 
+
   return (
     <header>
 
 
-      <div class="header">
-        <div class="grid grid-cols-3 gap-4">
-          <div ><img class="w-50 h-20 rounded-4xl" src="/icono_logo.png" alt="" /></div>
+      <div className="header">
+        <div className="grid grid-cols-3 gap-4">
+          <div ><img className="header_logo" src="/logo.png" alt="" /></div>
           <div > <Menu /></div>
-          <div class="header-right"><div class="relative">
-            <img class="w-10 h-10 rounded-full" src="/usuarioOnLine.png" alt="" />
-            <span class="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+          <div className="header-right"><div className="relative">
+            <img className="w-10 h-10 rounded-full" src="/usuarioOnLine.png" alt="" onClick={logout} />
+            <span className="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
           </div></div>
         </div>
 
@@ -21,4 +40,4 @@ function NotFound() {
   )
 }
 
-export default NotFound
+export default Header

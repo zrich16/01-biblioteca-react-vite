@@ -38,10 +38,10 @@ const navigate = useNavigate();
     return (
         <>
             <form id='f_login'>
-                <div className="w-full h-screen flex items-center justify-center">
+                <div className="w-full h-screen flex items-center justify-center  bg-gray-800 ">
                     <div className="w-[90%] max-w-sm md:max-w-md lg:max-w-md p-5 bg-gray-900 flex-col flex items-center gap-3 rounded-xl shadow-slate-500 shadow-lg">
                         <img src="/logo.png" alt="logo" className="w-12 md:w-14" />
-                        <h1 className="text-lg md:text-xl font-semibold text-white ">Biblioteca </h1>
+                        <h1 className="text-lg md:text-xl font-semibold text-white ">Video Game </h1>
                        
                         <p className="text-xs md:text-sm text-gray-500 text-center">
                             <span className="text-white"></span>

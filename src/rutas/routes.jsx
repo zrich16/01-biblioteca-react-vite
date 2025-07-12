@@ -4,8 +4,8 @@ import Login from '../pages/login/login';
 import Principal from '../pages/principal/principal';
 import About from '../pages/about/about';
 import Alquilar from '../pages/alquilar/alquilar';
-import Buscar from '../pages/libros/buscar';
-import Detalle from '../pages/libros/detalle';
+import Buscar from '../pages/videojuegos/buscar';
+import Detalle from '../pages/videojuegos/detalle';
 import RegistrarAlquiler from '../pages/alquilar/registraralquiler';
 import DetalleAlquiler from '../pages/alquilar/detallealquiler';
 
